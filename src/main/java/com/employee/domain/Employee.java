@@ -2,6 +2,7 @@ package com.employee.domain;
 
 public class Employee {
 
+      ###pojo class
 	private int Id;
 	private String firstName;
 	private String lastName;
