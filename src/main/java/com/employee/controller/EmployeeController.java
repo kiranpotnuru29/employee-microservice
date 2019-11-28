@@ -17,7 +17,7 @@ public class EmployeeController {
 
 	@GetMapping("/get")
 	public Employee getEmployee() {
-
+         system.out.println("kir");
 		Employee employee = employeeService.getEmployee();
 
 		return employee;
